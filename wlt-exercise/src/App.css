@@ -1,1 +1,33 @@
 html, body, body div.App.container-fluid { font-family: Calibri, 'Connections', sans-serif; }
+
+.list-view-container {
+  display: grid;
+  grid-auto-rows: 150px auto;
+}
+
+.standard-table--small {
+  max-width: 100px;
+}
+
+.filter-box {
+  width: 300px;
+  height: 200px;
+}
+
+.filter-badge {
+  margin: 5px;
+}
+
+.currency-table {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 20px;
+}
+
+.currency-table--table {
+  grid-column-start: 2;
+}
+
+.currency-table--filter {
+  grid-column-start: 4;
+}
